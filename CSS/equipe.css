@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css?family=Wendy+One');
+body{
+  margin: 0;
+  padding:0;
+  overflow-x: hidden;
+  font-family: 'Wendy One', sans-serif;
+}
+
+
+.container-fluid {
+  padding: 0;
+}
+
+.header{
+  background-color: #0096ff;
+  height:70px;
+  line-height: 70px;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+
+text-decoration: none;
+
+}
+
+
+.logo{
+  float: left;
+  text-transform: capitalize;
+  color:white;
+}
+
+.logo:hover{
+  color:white;
+}
+
+
+.menu{
+  float: right;
+}
+
+
+.menu a {
+  margin-right: 30px;
+  color:white;
+  text-transform: capitalize;
+}
+.footer{
+  height:100%;
+  background-color:#0096ff;
+  width: 100%;
+
+}
+
+.part{
+position: relative;
+top:12px;
+color:black;
+text-shadow: 3px 3px 6px white;
+}
+.space{
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+
+  margin-right: 25%;
+ position: relative;
+ left:13%;
+}
+
+.img-responsive{
+  border-radius: 40px/40px;
+  margin-right:3%;
+}
+
+.w{
+color:black;
+text-shadow: 3px 3px 6px white;
+}
+/* EQUIPE*/
+.zoro{
+  background-color: white;
+  height: 1000px;
+  position:relative;
+  left:14%;
+  top:20%;
+}
+
+.first{
+  border-radius: 20%;
+  position: relative;
+  left:5%;
+}
+
+h1{
+ position: relative;
+ left:10%;
+
+}
+
+.texte{
+  position: relative;
+  right:19%;
+  font-size: x-large;
+}
+
+.law{
+  background-color: white;
+  height: 1100px;
+}
+
+.perf{
+  position: relative;
+  left:2%;
+  font-size: x-large;
+}
+
+.second{
+  border-radius: 20%;
+  position: relative;
+  left:28%;
+}
+
+h2{
+  font-size: 2.75rem;
+}
+
+h4{
+  font-size: 2.75rem;
+}
+
+h5{
+  font-size: 2.75rem;
+}
+
+
+.rocinante{
+  background-color: white;
+  height: 1200px;
+}
+
+.third{
+  position: relative;
+  left:28%;
+  border-radius: 25%;
+}
+
+.miro{
+  font-size: x-large;
+}
+
+.bonney{
+  background-color: white;
+  height: 1400px;
+}
+
+.four{
+  position: relative;
+  left:28%;
+  border-radius: 25%;
+}
+
+.chocolate{
+  font-size: x-large;
+}
+
+.traitre{
+  border-radius: 50px/50px;
+}
+
+.info{
+  background-color: white;
+  height: 500px;
+}
+.bold{
+  font-size: xx-large;
+}
+
+.banner{
+  width: 100%;
+  max-width: 100%;
+}
+
+.ban{
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+}
+
+.ban .split{
+  width: 100%;
+  max-width: 100%;
+}
+
+
+#end{
+position: relative;
+color:white;
+color: #ff487a;
+transition: color .3s ease-in-out;
+-moz-transition: color .3s ease-in-out;
+text-decoration: none;
+font-size:xx-large;
+}
+/*RAIMBOW HOVER */
+#end:hover {
+-webkit-animation: zomg 0.5s infinite;
+animation: zomg 0.5s infinite;
+}
+
+@-webkit-keyframes zomg {
+0%, 100% { color: #7ccdea; }
+16%      { color: #0074d9; }
+32%      { color: #2ecc40; }
+48%      { color: #ffdc00; }
+64%      { color: #b10dc9; }
+80%      { color: #ff4136; }
+}
+
+@keyframes zomg {
+0%, 100% { color: #7ccdea; }
+16%      { color: #0074d9; }
+32%      { color: #2ecc40; }
+48%      { color: #ffdc00; }
+64%      { color: #b10dc9; }
+80%      { color: #ff4136; }
+}
+
+
+@media screen and (max-width:500px) {
+body{
+  margin:0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+  .menu a {
+    display: none;
+  }
+
+  .container{
+    padding: 0;
+  }
+
+  .img-responsive{
+  margin-bottom: 10%;
+  margin-left:9%;
+  }
+
+.zoro{
+  height: 1500px;
+}
+h1{
+position: relative;
+left:-15%;
+}
+
+#all1{
+  height: 300px;
+  width: 300px;
+ position:relative;
+ left:-15%;
+}
+
+#all2{
+  height: 300px;
+  width: 300px;
+ position:relative;
+ left:9%;
+}
+
+#all3{
+  height: 300px;
+  width: 300px;
+ position:relative;
+ left:8%;
+}
+
+#all4{
+  height: 300px;
+  width: 300px;
+  position: relative;
+  left:5%;
+}
+
+#all5{
+  height: 300px;
+  width: 300px;
+
+}
+h2{
+  font-size:x-large;
+}
+.law{
+  height: 1900px;
+}
+
+.rocinante{
+  margin-top:-120%;
+  height: 1700px;
+}
+
+.bonney{
+  height: 1700px;
+}
+
+.info{
+  height: 1200px;
+}
+}
